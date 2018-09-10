@@ -1,15 +1,15 @@
 import pandas as pd
-from progress.bar import IncrementalBar
+# from progress.bar import IncrementalBar
 import time
 import os
 
-# os.chdir("G:\Enrollment Management Center")
-os.chdir("/Volumes/Groups/Enrollment Management Center/FA Roster")
+os.chdir("G:\Enrollment Management Center\FA Roster")
+# os.chdir("/Volumes/Groups/Enrollment Management Center/FA Roster")
 
 file = input('Drop the file you want here\n')
 timr = time.strftime("%m-%d-%y")
 # bar = MoonSpinner('\nProcessing: ')
-bar = IncrementalBar(max=15)
+# bar = IncrementalBar(max=15)
 
 try:
     for i in range(15):
@@ -25,8 +25,8 @@ try:
         data.to_excel(timr + '.xlsx', index=False)
 
         time.sleep(0.2)
-        bar.next()
-    bar.finish()
+        # bar.next()
+    # bar.finish()
     print('\nComplete!!!!')
 
 # except OSError:
