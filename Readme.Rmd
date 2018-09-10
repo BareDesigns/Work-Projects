@@ -1,3 +1,12 @@
-# TEST
+# Work Projects
+
+This repository is a holding place for misc scripts for work that I have written.
 
 
+## Used Languages
+
+* Python
+* AutoHotKey
+
+
+Descriptions for each project will be in their separate folders
