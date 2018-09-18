@@ -3,8 +3,8 @@ from progress.bar import IncrementalBar
 import time
 import os
 
-# os.chdir("G:\Enrollment Management Center\FA Roster")
-os.chdir("/Volumes/Groups/Enrollment Management Center/FA Roster")
+os.chdir("G:\Enrollment Management Center\FA Roster")
+# os.chdir("/Volumes/Groups/Enrollment Management Center/FA Roster")
 
 file = input('Drop the file you want here:\n')
 timr = time.strftime("%m-%d-%y")  # Sets the file name to current date
