@@ -1,0 +1,43 @@
+{
+  "version": "1.2.1",
+  "aspectRatio": "1.85",
+  "fps": 24,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "uid": "1KPKM",
+      "url": "board-1-1KPKM.png",
+      "newShot": false,
+      "lastEdited": 1513467069953,
+      "layers": {
+        "reference": {
+          "url": "board-1-1KPKM-reference.png",
+          "opacity": 0.75
+        },
+        "notes": {
+          "url": "board-1-1KPKM-notes.png"
+        }
+      },
+      "number": 1,
+      "shot": "1A",
+      "time": 0,
+      "lineMileage": 3964.217392027077
+    },
+    {
+      "uid": "Y6998",
+      "url": "board-2-Y6998.png",
+      "newShot": false,
+      "lastEdited": 1513467112580,
+      "layers": {
+        "reference": {
+          "url": "board-2-Y6998-reference.png",
+          "opacity": 0.75
+        }
+      },
+      "number": 2,
+      "shot": "2A",
+      "time": 2000,
+      "lineMileage": 2023.209277670008
+    }
+  ]
+}
